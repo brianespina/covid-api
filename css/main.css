@@ -1,0 +1,32 @@
+#loader {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  background: white;
+}
+#loader div {
+  align-self: center;
+  border: solid 20px white;
+  width: 120px;
+  height: 120px;
+  border-top: solid 20px #e74c3c;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+.hide {
+  display: none !important;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
