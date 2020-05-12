@@ -1,5 +1,5 @@
 const API_URL = 'https://api.covid19api.com/summary'
-const globalComponent = document.getElementById('root')
+const globalComponent = document.getElementById('global')
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchAPI()
