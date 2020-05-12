@@ -1,5 +1,3 @@
-
-
 const API_URL = 'https://api.covid19api.com/summary'
 const globalComponent = document.getElementById('root')
 
